@@ -512,8 +512,8 @@
         // Sample data for the modal
         const sampleRecalculationData = [{
           vehicleNumber: vehicleNumber,
-          fromDate: "2025-09-01T00:00:00.000Z",
-          toDate: "2025-09-30T00:00:00.000Z",
+          fromDate: "2025-10-01T00:00:00.000Z",
+          toDate: "2025-10-31T00:00:00.000Z",
           reCalculatedBy: "Supervisor-1",
           regenerateTime: "2025-10-26T10:00",
           reason: "Initial data incorrect",
@@ -521,8 +521,8 @@
         },
         {
           vehicleNumber: vehicleNumber,
-          fromDate: "2025-09-01T00:00:00.000Z",
-          toDate: "2025-09-30T00:00:00.000Z",
+          fromDate: "2025-10-01T00:00:00.000Z",
+          toDate: "2025-10-31T00:00:00.000Z",
           reCalculatedBy: "Admin",
           regenerateTime: "2025-12-08T16:54:00.000Z",
           reason: "Review",
@@ -565,21 +565,21 @@
       // --- MODIFICATION ---
       // We now load this sample data immediately instead of fetching from a URL.
       const sampleReportData = {
-        "generationTime": "2025-12-08T15:55",
+        "generationTime": "2025-12-08T16:06",
         "generatedBy": "rohitsainiwhatsappdata@gmail.com",
         "uniqueId": "Report_123",
-        "totalTrips": 267,
+        "totalTrips": 261,
         "totalVehicleReports": 1,
-        "totalDistance": 4531.24,
+        "totalDistance": 4378.52,
 	"totalEngineHr": 0,
         "fromDate": "2025-09-01T00:00:00.000Z",
         "toDate": "2025-09-30T00:00:00.000Z",
         "vehicleReports": [ {
           "area": "Najafgarh",
-          "vehicleNumber": "DL1LAA9281",
+          "vehicleNumber": "DL1LAD3975",
           "tankerType": "MS_HIRED",
-          "totalDistance": 4531.24,
-          "totalTrips": 267,
+          "totalDistance": 4378.52,
+          "totalTrips": 261,
           "vehicleRecalculateCount": 0 // Set to 0 to show "N/A"
         }]
       };
@@ -737,3 +737,4 @@
   </script>
 </body>
 </html>
+
